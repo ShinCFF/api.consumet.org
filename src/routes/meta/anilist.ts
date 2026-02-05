@@ -409,7 +409,7 @@ const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
 };
 
 const generateAnilistMeta = (provider: string | undefined = undefined): Anilist => {
-  return new Anilist(new Hianime(), {
+  return new Anilist(new AnimePahe(), {
     url: process.env.PROXY as string | string[],
   });
 };
