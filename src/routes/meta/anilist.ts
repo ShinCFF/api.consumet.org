@@ -8,6 +8,7 @@ import { StreamingServers } from '@consumet/extensions/dist/models';
 import cache from '../../utils/cache';
 import { redis } from '../../main';
 import Hianime from '@consumet/extensions/dist/providers/anime/hianime';
+import AnimePahe from '@consumet/extensions/dist/providers/anime/animepahe';
 import Providers from '../../utils/providers';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
